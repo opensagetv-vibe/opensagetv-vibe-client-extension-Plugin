@@ -1,5 +1,21 @@
 # Handoff
 
+## VCE-006 PUBLISHED / catalog submitted (2026-10-16)
+
+GitHub beta v0.1.0 is public at a54267fa806f216b50931a433fe099b681c1475d,
+exact requiredCI38916974338 green. Stock-JAR all and10Python tests pass;
+four public assets independently downloaded/hash-verified against canonical
+packages and GitHub digests. ZIP SHA25660588bb46fe04935575dc2fe1d53ef69f212d043ec5e223db66ec10ec0e6fc36,
+MD528f4e5879ed32eca5e5f253c5f22cbfd; runtime remains tested5a623266.
+SageTV catalog [PR130](https://github.com/OpenSageTV/sagetv-plugin-repo/pull/130)
+is submitted/open/mergeable; no catalog checks are configured. Only the new
+released leaf changes; generated feeds untouched. Await upstream review/
+aggregation, do not claim plugin-manager availability. VCE-006 closes its
+publication/submission acceptance, future VCE-003 remains deferred.
+No new plugin installation/restart or stock file replacement. This tracking-
+only commit changes no runtime/version/immutable assets. Compact publication
+and physical results retained, completed raw/staging recoverably retired.
+
 ## First binary release qualification (2026-10-16)
 
 User explicitly requests GitHub AND SageTV plugin publication. VCE-002/005

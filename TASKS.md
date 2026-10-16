@@ -4,7 +4,8 @@
 
 Current2026-10-16: VCE-002/005 native stock acceptance and VCE-007 public
 boundary gates are complete; their checked records are in the ledger.
-VCE-006 publication is in progress with explicit GitHub/catalog approval.
+VCE-006 is complete: GitHub0.1.0 beta is public/verified; SageTV PR130 is
+submitted/open/mergeable, awaiting upstream review/aggregation.
 Only future provider-contract work remains outside this initial native/DVD-
 diagnostic beta. Older pending paragraphs are historical checkpoints, not
 current blockers. See docs/STOCK_PHYSICAL_GATE.md for the scope matrix.
@@ -74,13 +75,19 @@ for native-DVD beta versus holding for untriggered malformed-disc/broader gates.
   regular-file Direct does not supply a DVD-volume provider. Design/gate that
   provider separately before any MIM-owned DVD transport. No duplicate process
   management/configuration. Not a claim or dependency of native0.1.0 playback.
-- [ ] **VCE-006 — Release gate.** User approval and required native/diagnostic
-  physical gates now qualify. Finish affected local/source/package checks,
-  exact-HEAD CI, GitHub beta assets, independent public verification and a
-  leaf-only SageTV beta-catalog submission; distinguish submission from feed
-  aggregation. Preserve future VCE-003/private Core boundaries.
-
 ## Checklist change ledger
+
+- [x] **VCE-006 - Release gate (2026-10-16).** Explicit user approval, stock-
+  JAR all/config/recovery/store/upload/source/package and10host tests pass.
+  Published immutable GitHub beta0.1.0 at a54267fa806f216b50931a433fe099b681c1475d
+  after exact-source greenCI38916974338. Four independent public downloads
+  match GitHub/canonical digests; ZIP60588bb4/MD528f4e587, tested JAR5a623266.
+  SageTV catalog PR130 submitted/open/mergeable with only the released leaf,
+  no generated-feed edits. Upstream merge/aggregation remains external, not
+  live availability. Native002/005/007 and diagnostic011 gates documented;
+  future003/private Core parity not shipped. Tracking-only follow-up must not
+  rebuild/relabel immutable release assets. Completed raw/staging retired
+  recoverably; compact results/VCE-006/publication.json retained.
 
 - [x] **VCE-007 - DVD Core parity boundary (2026-10-16).** Negative raw input
   requestedMs=-9500->0 was physically proved on stock175 (older documented

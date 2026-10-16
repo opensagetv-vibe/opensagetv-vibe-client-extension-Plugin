@@ -5,7 +5,9 @@ Version0.1.0 is the first qualified **beta** release for stock Linux/Windows
 SageTV9.2.2 or newer. See [releases](https://github.com/opensagetv-vibe/opensagetv-vibe-client-extension-Plugin/releases)
 and `docs/STOCK_PHYSICAL_GATE.md` for the tested scope. GitHub publication,
 catalog submission and availability in SageTV's generated catalog are separate
-steps; their current status is recorded in `HANDOFF.md`.
+steps. [0.1.0 beta](https://github.com/opensagetv-vibe/opensagetv-vibe-client-extension-Plugin/releases/tag/v0.1.0)
+is public; [catalog PR130](https://github.com/OpenSageTV/sagetv-plugin-repo/pull/130)
+is submitted and awaits upstream review/aggregation, not already in-app availability.
 
 An optional, stock-`Sage.jar`-compatible server-side companion for the Vibe
 Android client. The first extension point is SageTV's existing per-UI

@@ -2,6 +2,11 @@
 
 ## 0.1.0 - 2026-10-16 (beta)
 
+- Published immutable GitHub beta assets after exact-source green CI and
+  independent download/hash verification; submitted SageTV catalog PR130.
+  In-app availability awaits upstream review/aggregation. Later tracking-only
+  commits do not replace this release's tested source/JAR/package.
+
 - First qualified binary release for stock SageTV Linux/Windows. Existing
   per-client DVD hook and default-off recovery preserve other clients/settings;
   no modified Core or runtime MCP requirement.
