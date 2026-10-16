@@ -1,5 +1,58 @@
 # Stock-server physical gate
 
+## Release0.1.0 qualification (2026-10-16, supersedes pending checkpoints below)
+
+The bounded **native DVD adapter + upload-only diagnostics** beta qualifies.
+Unchanged runtime JAR SHA256:
+`5a623266c80be25f8fe4839d1ca38fe2652ac7de72b9dad3f3e41561c1df8698`.
+Compile-only stock Core and both stock test-server Core hashes:
+`d76ded981b9bc51e25b9cec821b6abeb771b46c2996dc45e453349b5e703fcb0`.
+Linux175 rootFFmpeg remains unchanged. No Core replacement is required.
+
+| Gate | Actual evidence and scope |
+|---|---|
+| Per-client opt-in/fallback | Linux175/SageMC and Windows185/SageTV7/non-Pro25. Selected UI hook only; other UI unchanged; disabled/unselected paths retain stock behavior. Standard Disable/Enable preserves settings and invalidates old recovery lifetimes. |
+| Menus/title/controls | Both stock servers: authored root/Languages/Chapters menus, title video and audio, positive/near-zero seek, held pause/resume and Stop/Watch. Stock also resumes a previously played title; forcing a root menu is not the oracle. |
+| Real reloads/custody | Both stock servers: actual normal and one-rejected-type5 GFX reconnects restore title; a newer3000ms seek survives beyond old retries. Original revisions aa1a5d44/eb68de89 retain their own evidence. |
+| Near-end backward seek |95557727 Linux83.933s->30.463s and Windows82.479s->30.882s; reviewed HDMI advances39.573/41.675/43.677s and40.073/42.075/44.144s. Intentional menus stay menus. |
+| Negative input | Physical Linux trace: seek-clamped requestedMs=-9500; ordinary60000ms seek unchanged. Subsequent Linux/Windows near-zero no-error tests are additional controls, not new raw-input proof. |
+| Malformed public-control boundary |2026-10-16 EXACT5a runtime/stock175/non-Pro25. Owned generated DVD copy previous-PGC0->3 with declared count2; public DVD Prev Chapter207 at chapter1 produces REAL ArrayIndexOutOfBoundsException. One event=malformed-nav, checked DVD_INVALIDOP(-9,0), expected SageMC error dialog, no retry loop; HDMI frame283->433->583 and title4.361s->35.893s continue with audio/video counts156/266->1137/2142. |
+| Upload-only receiver | EXACT5a on stock175/185/non-Pro25: default Off/no writes, enabled/manual receipts with independently downloaded ZIP hashes/privacy, disable/unreachable/reconnect/exit and independently captured continuing A/V. Android main-settings opt-in persists. No server-hosted browser viewer. |
+| Restoration | Each original group restores its checkpointed prefs/hook/options/device power. Latest136prefs, blank hook, enabledtrue/recoveryfalse/tracefalse/timedskiptrue restored; original generated DVD untouched. Windows awake requests released with original plan unchanged. |
+
+Impact selection reuses unaffected Windows/Linux recovery evidence: subsequent
+5a changes only diagnostics, whose final cross-platform physical acceptance is
+separate. The new malformed fixture closes the previously untriggered **public
+control-boundary** gate without changing production runtime. Local stock-JAR
+Java8/config/recovery/store/upload/source/package contracts are rerun before
+publication. Hardware extenders, MIM-owned DVD, exact-frame landing, private
+VM/pusher malformed links and full modified-Core parity are not certified.
+Their boundary remains in `docs/DVD_CORE_PARITY.md`; VCE-003 is future work.
+
+### Reproduce the malformed-control gate
+
+Use only the generated six-file authored DVD, not commercial/user media:
+
+```text
+python scripts/create_navigation_fixture.py --source-video-ts ORIGINAL/VIDEO_TS --output-video-ts NEW_COPY/VIDEO_TS
+```
+
+The output directory must not exist. The generator changes only the first
+title PGC's previous-link unsigned16 at PGC+158 in matching IFO/BUP copies;
+VOBs and the source stay unchanged. Scan the NEW_COPY through SageTV's normal
+library API. Enable the adapter/Trace DVD Reload only for the test Vibe UI,
+open its root menu, Play Main Feature, then issue DVD Prev Chapter while in
+chapter1. Verify one malformed-nav trace and the normal DVD error dialog;
+video/audio must continue instead of repeatedly processing the failed job.
+Restore prior hook/settings afterward. Do not use this fixture to claim that
+the adapter catches malformed links on Core's private pusher thread.
+
+Compact local results/VCE-005,009,010,011 and VCE-007 retain exact revisions,
+controls, hashes and observations. Completed raw captures are retired
+recoverably to workspace deleteme after review; they are not public downloads.
+
+## Historical checkpoints
+
 Date: 2026-10-04. Target: unmodified SageTV server `192.168.10.175`,
 non-Pro Fire TV `192.168.10.25` (AFTMM/API 25), UI context `444556303031`.
 The SageTV server's stock `Sage.jar` SHA-256 before deployment is

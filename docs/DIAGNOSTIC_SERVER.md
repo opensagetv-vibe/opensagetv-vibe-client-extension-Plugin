@@ -44,5 +44,6 @@ No CORS, arbitrary paths, executable/media files or playback controls.
 
 Core MCP's confirmed, checkpointed diagnostics.enabled control is for
 commissioning only. Restore the exact prior client/receiver settings after
-every test. The upload-only candidate is unreleased; historical combined
-viewer evidence does not prove the revised architecture's physical gates.
+every test. The upload-only receiver is qualified for0.1.0 on stock Linux175
+and Windows185/non-Pro25. Historical combined-viewer evidence is superseded;
+the Android-hosted viewer remains a separate feature and opt-in.

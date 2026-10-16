@@ -1,5 +1,30 @@
 # Handoff
 
+## First binary release qualification (2026-10-16)
+
+User explicitly requests GitHub AND SageTV plugin publication. VCE-002/005
+native stock acceptance is reconciled from valid Linux175/Windows185/non-Pro
+evidence, not replayed as a broad matrix. VCE-007's last physical gap now passes
+on stock175/non-Pro25 with the EXACT installed5a623266 runtime: an owned copy
+of the generated DVD has its previous-PGC link changed0->3 (table count2).
+Public DVD Prev Chapter traverses it at chapter1. One actual
+ArrayIndexOutOfBoundsException becomes checked DVD_INVALIDOP(-9,0), stock STV
+shows its expected error dialog, and HDMI picture/clock/audio keep advancing.
+After error:4361->35893ms, video266->2142/audio156->1137, no player error.
+Original disc untouched; stock Core d76ded98 unchanged, no restart/install.
+136prefs, blank selected UI hook, four original options and power restored.
+Older physical negative input clamp(-9500->0) remains separately recorded.
+Compact results/VCE-007 and docs/STOCK_PHYSICAL_GATE.md retain actual scope.
+
+Set approvaltrue/date2026.10.16 only after those gates; runtime source and JAR
+are unchanged. VCE-006 now proceeds through local build/source/package,
+exact-HEAD green CI, immutable GitHub assets with independent download/hash
+verification, then a leaf-only SageTV catalog PR. Never call a submitted entry
+already available in the plugin manager. VCE-003 future owned-DVD transport
+remains deferred, not represented as shipped. Core-private parity remains
+documented; no legacy hardware, frame-exact seek or malformed private-pusher
+containment claim. Earlier pending paragraphs below are historical checkpoints.
+
 ## Approved source publication (2026-10-16)
 
 User requests all publishable Vibe source updates and qualified plugin releases.

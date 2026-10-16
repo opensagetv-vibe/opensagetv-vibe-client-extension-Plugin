@@ -2,6 +2,13 @@
 
 ## Active
 
+Current2026-10-16: VCE-002/005 native stock acceptance and VCE-007 public
+boundary gates are complete; their checked records are in the ledger.
+VCE-006 publication is in progress with explicit GitHub/catalog approval.
+Only future provider-contract work remains outside this initial native/DVD-
+diagnostic beta. Older pending paragraphs are historical checkpoints, not
+current blockers. See docs/STOCK_PHYSICAL_GATE.md for the scope matrix.
+
 Current2026-10-12: VCE-011 diagnostic acceptance is CLOSED on stock175 and185/
 non-Pro25, current upload-only5a623266/Android488349a4, exact ZIP/private storage,
 Off/disable/missing/reconnect/exit/actual A/V and complete restoration. Windows
@@ -61,7 +68,49 @@ User requested publication; VCE-006 remains gated. A scope decision is pending
 for native-DVD beta versus holding for untriggered malformed-disc/broader gates.
 
 
-- [ ] **VCE-002 — DVD player hook.** Prove `media_player_plugin_class/dvd`
+- [ ] **VCE-003 — FFmpeg/MIM reuse (future transport, deferred).** Discover
+  the separate FFmpeg plugin via supported SageTV plugin APIs (implemented).
+  Future Copy/Transcode/CC/GPU work must delegate to its existing service;
+  regular-file Direct does not supply a DVD-volume provider. Design/gate that
+  provider separately before any MIM-owned DVD transport. No duplicate process
+  management/configuration. Not a claim or dependency of native0.1.0 playback.
+- [ ] **VCE-006 — Release gate.** User approval and required native/diagnostic
+  physical gates now qualify. Finish affected local/source/package checks,
+  exact-HEAD CI, GitHub beta assets, independent public verification and a
+  leaf-only SageTV beta-catalog submission; distinguish submission from feed
+  aggregation. Preserve future VCE-003/private Core boundaries.
+
+## Checklist change ledger
+
+- [x] **VCE-007 - DVD Core parity boundary (2026-10-16).** Negative raw input
+  requestedMs=-9500->0 was physically proved on stock175 (older documented
+  near-zero gate); positive seeks remain valid on Linux/Windows. Last missing
+  malformed control now physically passes on EXACT5a623266/stock175/non-Pro25:
+  owned generated DVD previous-PGC0->3, table count2; public Prev Chapter207
+  produces one actual ArrayIndexOutOfBoundsException converted to DVD_INVALIDOP
+  (-9,0). Expected STV error dialog; independently reviewed18s HDMI advances
+  moving pattern/frame283->433->583, clocks4361->35893ms, video266->2142/audio
+  156->1137, no player error or repeated retry.136prefs/hook/options/power
+  restored, original disc/Core untouched, no restart. Source generator and
+  tests reproduce the single-link mutation. Public docs retain Core-only VM,
+  pusher/STC/highlight/VideoFrame/negotiation gaps; no private-path parity claim.
+  Compact results/VCE-007/fixture.json, control-log-extract.json and RESULT.md.
+
+- [x] **VCE-005 - Physical stock gate (reconciled2026-10-16).** Stock Linux175
+  and Windows185/non-Pro25 authored menus/title A/V/positive and near-zero seeks,
+  pause/resume, real normal/rejected-type5 reconnect, newer3000ms seek custody,
+  Stop/Watch matched-stock behavior, plugin Disable/Enable and unselected/
+  feature-disabled fallback pass at their original revisions in VCE-005/008/
+  009/010/011 results. Configure verified SageMC and SageTV7. Core d76ded98
+  before/after, Linux rootFFmpeg unchanged; settings/power restored. Final5a
+  diagnostic-only delta passes fresh stock Linux/Windows uploads/playback;
+  final installed5a also passes VCE-007 actual boundary now. Reuse unaffected
+  evidence by impact; no full matrix replay or invented legacy hardware test.
+  Other-client per-UI property remains untouched; native legacy protocol is
+  unchanged. Hardware-extender execution and full modified-Core parity are NOT
+  certified by this plugin's gate. VCE-003 owned-DVD remains future work.
+
+- [x] **VCE-002 — DVD player hook (complete2026-10-16).** Prove `media_player_plugin_class/dvd`
   selects the adapter only on an opted-in Vibe UI, while another client and
   missing/disabled-plugin paths retain stock behavior. Do not claim DVD-001
   recovery until exact fault/reload and intentional restart gates pass.
@@ -78,32 +127,12 @@ for native-DVD beta versus holding for untriggered malformed-disc/broader gates.
   to stock-equivalent resume behavior, then genuine reconnect/type-5 and
   disabled/unselected fallback only, no broad matrix rerun.113 prefs/effective
   UI hook/original four plugin values/power restored after every group.
-- [ ] **VCE-003 — FFmpeg/MIM reuse.** Discover the separate FFmpeg plugin via
-  supported SageTV plugin APIs. Delegate any Copy/Transcode/CC/GPU work to its
-  existing service, extending that service only for a proven gap. The current
-  Direct session accepts regular media files; stock-JAR DVD directories need
-  a separately gated provider contract before an owned DVD transport can use
-  MIM. No duplicate FFmpeg/MIM process management or configuration.
-- [ ] **VCE-005 — Physical stock gate.** On unmodified Linux `.175` and non-Pro
-  Fire TV `.25`, record before/after `Sage.jar` hash; test native authored DVD
-  menus, seek, pause, reconnect, stop/restart, old-client fallback, and setting
-  restoration. Repeat relevant plugin/player gates on stock Windows.
-- [ ] **VCE-006 — Release gate.** Run affected build/source/packaging/physical
-  gates and obtain user approval before any GitHub or SageTV-catalog release.
-  VCE-011 / Android DIAG-002 and Android-owned DIAG-003's focused gates now
-  qualify; keep their evidence, do not repeat them without an affected change.
-
-- [ ] **VCE-007 - DVD Core parity boundary.** Physically gate the stock-hook
-  negative-seek and malformed-navigation containment paths on authorized
-  fixtures, while retaining the Core-only VM, private push-loop/STC/highlight,
-  VideoFrame state, and `DVD_DISC_*` negotiation gaps recorded in
-  `docs/DVD_CORE_PARITY.md`. Do not label those gaps plugin-complete or copy
-  SageTV classes into the plugin. Seek a supported upstream hook only when a
-  concrete physical failure requires one.
-
-VCE-011 diagnostic receiver qualification is complete; see ledger below.
-
-## Checklist change ledger
+  Closure: VCE-008/010 prove both actual faults, later-user-seek ownership,
+  lifecycle and fallback; VCE-009 proves intentional menus/late seek on stock
+  Linux/Windows. VCE-004 config and VCE-011 uploads qualify independently.
+  Per-UI/other-UI preservation and missing-package fallback were verified;
+  no core protocol replacement or runtime MCP dependency. Earlier requested
+  root-menu oracle is superseded by the matched-stock result above.
 
 - 2026-10-16 pre-commit source-publication review: user approval covers the new
   source repository. Stock-JAR Java8/config/store/recovery/source/package gates

@@ -1,6 +1,24 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 - 2026-10-16 (beta)
+
+- First qualified binary release for stock SageTV Linux/Windows. Existing
+  per-client DVD hook and default-off recovery preserve other clients/settings;
+  no modified Core or runtime MCP requirement.
+- Stock Linux/Windows authored menus, seek, pause, reconnect/type5, later-user-
+  seek custody, Stop/Watch and disable/fallback gates qualify. Preserve each
+  original revision's evidence; no unrelated matrix rerun.
+- Complete real malformed-navigation boundary acceptance on stock Linux175/
+  non-Pro25: generated previous-PGC link exceeds its table; actual unchecked
+  index error becomes the checked DVD error dialog while title A/V continues.
+  Include a reproducible opt-in fixture generator and mutation contracts.
+- Upload-only diagnostics qualify on stock Linux/Windows, including redaction,
+  receipt hashes, Off/unavailable/reconnect/exit and playback continuity.
+  Browser viewing stays in Android, not in this server plugin.
+- Future MIM-owned DVD transport and private Core parity remain unimplemented;
+  do not interpret the following development history as broader acceptance.
+
+### Development history
 
 - Qualify upload-only receiver on232/non-Pro: disabled/no writes, enabled/manual
   exact stored ZIP/receipt hash/privacy, unavailable-service safe playback and
