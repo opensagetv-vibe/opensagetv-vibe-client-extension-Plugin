@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a reproducible Client Extension problem on a stock server.
+title: "[Bug] "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Plugin and Vibe client versions
+      description: Include the installed extension version and Android client version.
+    validations:
+      required: true
+  - type: input
+    id: server
+    attributes:
+      label: SageTV server and STV
+      description: Server version, Linux/Windows, Java version, stock/modified Core and SageMC/SageTV7.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Android device and player
+      description: Device model, OS, player backend and playback transport.
+    validations:
+      required: true
+  - type: textarea
+    id: settings
+    attributes:
+      label: Extension settings
+      description: Standard plugin enabled/disabled, feature Enable, Recover DVD After Reload, Trace DVD Reload, and whether the affected UI was explicitly selected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction, expected result and actual result
+      description: Include exact actions and timestamps, DVD title/chapter and whether it occurs with the client adapter restored to stock. Do not upload copyrighted discs.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Diagnostic evidence
+      description: Attach a reviewed Android diagnostic ZIP and relevant server-log excerpt. Use the client long-press diagnostic export action (or configured SMB export). Trace DVD Reload is default off; restore its prior value after reproduction. Remove credentials, tokens and other private information before attaching files.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I reviewed attachments and removed information I do not want to publish.
+          required: true

@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest a demonstrated stock-compatible client extension.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User-visible problem
+      description: Describe the existing playback problem or missing workflow, affected devices and reproduction steps.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Explain the desired behavior and safe stock/older-client fallback. FFmpeg/MIM media processing belongs in the separate FFmpeg plugin.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Available test evidence
+      description: Describe hardware, lawful fixtures and focused acceptance tests. Do not include passwords, tokens or copyrighted media.

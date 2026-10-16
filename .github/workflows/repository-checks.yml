@@ -1,0 +1,31 @@
+name: Repository checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  source-contracts:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Validate project sources without shipping Sage.jar
+        run: bash scripts/validate.sh
+      - name: Validate plugin metadata and release gate
+        run: python3 scripts/validate_manifest.py
+      - name: Verify tracked source integrity and credential boundary
+        run: python3 scripts/project_manifest.py --check
+      - name: Exercise packaging and publication boundaries without Sage.jar
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Reject private dependency and generated output directories
+        shell: bash
+        run: |
+          test ! -d .deps
+          test ! -d build
+          test ! -d dist
+          test ! -d output

@@ -1,0 +1,11 @@
+build/
+dist/
+output/
+.deps/
+artifacts/*
+!artifacts/downloads/
+artifacts/downloads/*
+!artifacts/downloads/.gitkeep
+*.bak
+__pycache__/
+*.py[cod]
