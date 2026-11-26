@@ -10,7 +10,7 @@
   <OS>Win</OS>
   <Desktop>false</Desktop>
   <ServerOnly>true</ServerOnly>
-  <Description>Optional per-client DVD player extension for OpenSageTV Vibe. Stock Sage.jar and older clients retain their original playback paths.</Description>
+  <Description>Optional per-client DVD and TS restart player hooks for OpenSageTV Vibe. Stock Sage.jar and unselected clients retain their original playback paths.</Description>
   <PluginType>Standard</PluginType>
   <ImplementationClass>org.opensagetv.vibe.clientextension.ClientExtensionPlugin</ImplementationClass>
   <Package>

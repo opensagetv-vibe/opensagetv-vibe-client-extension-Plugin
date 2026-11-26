@@ -100,6 +100,29 @@ public final class ConfigContractTest {
         check("".equals(SageTV.CLIENT.get("VibeUI:" + SAGEMC_SKIP)),
                 "disable must restore prior SageMC DVD key behavior");
 
+        check("false".equals(plugin.getConfigValue("dvd.owned_navigation")), "owned navigator defaults off");
+        check("native".equals(plugin.getConfigValue("dvd.owned_mode")), "MIM must not be implicitly selected");
+        check("false".equals(plugin.getConfigValue("dvd.skip_menus")), "authored menu chain is default");
+        check("false".equals(plugin.getConfigValue("dvd.skip_previews")), "preview skipping defaults off");
+        plugin.setConfigValue("dvd.skip_previews", "true");
+        check("true".equals(plugin.getConfigValue("dvd.skip_previews")), "explicit preview option persists");
+        plugin.setConfigValue("dvd.skip_previews", "false");
+        plugin.setConfigValue("dvd.owned_mode", "copy");
+        check("copy".equals(plugin.getConfigValue("dvd.owned_mode")), "explicit fixed transport choice");
+        try { plugin.setConfigValue("dvd.owned_mode", "anything"); throw new AssertionError("Unknown DVD mode"); }
+        catch (IllegalArgumentException expected) { }
+        plugin.setConfigValue("dvd.owned_mode", "native");
+        plugin.setConfigValue("dvd.owned_navigation", "true");
+        plugin.setConfigValue("action.enable_client", "1");
+        check(ClientExtensionPlugin.OWNED_DVD_PLAYER_CLASS.equals(SageTV.CLIENT.get("VibeUI:" + KEY)),
+                "explicit owned navigator selection uses the independent player");
+        plugin.setConfigValue("dvd.owned_navigation", "false");
+        plugin.setConfigValue("action.enable_client", "1");
+        check(ClientExtensionPlugin.PLAYER_CLASS.equals(SageTV.CLIENT.get("VibeUI:" + KEY)),
+                "switching back must not overwrite the original hook checkpoint");
+        plugin.setConfigValue("action.disable_client", "1");
+        check("".equals(SageTV.CLIENT.get("VibeUI:" + KEY)), "restore original hook after owned/native changes");
+
         SageTV.CLIENT.put("VibeUI:" + KEY, "third.party.Player");
         plugin.setConfigValue("action.enable_client", "1");
         check("third.party.Player".equals(SageTV.CLIENT.get("VibeUI:" + KEY)),

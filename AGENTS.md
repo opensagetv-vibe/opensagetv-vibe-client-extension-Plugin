@@ -1,5 +1,13 @@
 # Vibe Client Extension project rules
 
+## Superseding stock-server rule (2026-11-09)
+
+`.232` now runs official stock SageTV. Older non-stock232/Core exceptions
+below are superseded: preserve Sage.jar, bundled Core natives and stock
+FFmpeg. Use supported plugin interfaces without sage.* shadows or bytecode
+patches; leave unimplemented private-Core features unavailable. MCP must not
+be required for production playback. Keep existing restart/activity guards.
+
 ## Task fix and server-boundary policy
 
 Apply this policy to every task workflow, including dependency fixes across

@@ -1,5 +1,13 @@
 # Workflow
 
+## Current stock-only server boundary
+
+`.232` now runs official stock9.2.17. All older Core-change permissions in
+this document are superseded by the workspace rule: client fixes first,
+then supported plugins/container integration, never replacement Sage.jar,
+native Core or stock FFmpeg. Unsupported private DVD features remain off.
+Install application payloads through SageTV's manager, not extracted JARs.
+
 ## Task fix and server-boundary policy
 
 Apply this policy to every task workflow, including dependency fixes across
@@ -59,6 +67,23 @@ separate visual gate and must not claim to be complete until tested on SageMC
 and stock SageTV7 STVs.
 
 ## Physical setup and lifecycle evidence
+
+- CELL metadata is read ahead. Preserve the current presentation NAV until
+  the destination NAV actually arrives; only explicit seek/FLUSH invalidates
+  immediately. Compare public duration/domain with the burned visible title
+  across a natural transition, not just after an explicit menu command.
+- Author a real SPU/HLI button and a correctly encoded default SPRM8 button
+  (`button=1024` for button1) in DVD fixtures. Prove ordinary Select starts the
+  main title without a separate test-only button-selection operation. Do not
+  add production button guessing to compensate for malformed test authoring.
+- Stock STV desired caption state comes from public
+  GetMediaPlayerClosedCaptionState even when its setter returns false. Do not
+  add a caption player hook or change FastLoad. Getter/HTTP success alone is
+  not decoder proof: inspect current Android slot, actual backend, advancing
+  A/V and visible CEA/Teletext/DVB output. Configuration writes apply on the
+  next load; commission a fresh load before judging explicit local fallback.
+- Supply an absolute HDMI capture output under artifacts/active/TASK-ID.
+  Do not infer full-screen output, captions or cadence from counters alone.
 
 - Use valid generated authored media, with burned title/PTS/chapter labels.
   Before a reconnect test, start through its verified menu/Play command and

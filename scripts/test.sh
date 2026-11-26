@@ -3,13 +3,26 @@ set -euo pipefail
 root="$(cd "$(dirname "$0")/.." && pwd)"
 bash "$root/scripts/build.sh"
 stock_jar="${SAGETV_JAR:-$root/.deps/stock/Sage.jar}"
+SAGETV_JAR="$stock_jar" python3 -m unittest discover -s "$root/tests" -p test_stock_api_names.py
 mkdir -p "$root/build/test-classes"
 mapfile -d '' test_sources < <(find "$root/src/test/java" -type f -name '*.java' -print0)
 javac --release 8 -cp "$root/build/classes:$stock_jar" -d "$root/build/test-classes" "${test_sources[@]}"
 java -cp "$root/build/test-classes:$root/build/classes:$stock_jar" \
   org.opensagetv.vibe.clientextension.ConfigContractTest
 java -cp "$root/build/test-classes:$root/build/classes:$stock_jar" \
+  org.opensagetv.vibe.clientextension.TsRestartContractTest
+java -cp "$root/build/test-classes:$root/build/classes:$stock_jar" \
   org.opensagetv.vibe.clientextension.DiagnosticStoreTest
+java -cp "$root/build/test-classes:$root/build/classes:$stock_jar" \
+  org.opensagetv.vibe.clientextension.OwnedDvdContractTest
+java -cp "$root/build/test-classes:$root/build/classes:$stock_jar" \
+  org.opensagetv.vibe.clientextension.DvdCapabilityTest
+java -cp "$root/build/test-classes:$root/build/classes:$stock_jar" \
+  org.opensagetv.vibe.clientextension.PlaybackCaptionStateTest
+java -cp "$root/build/test-classes:$root/build/classes:$stock_jar" \
+  org.opensagetv.vibe.clientextension.DvdStartupPolicyTest
+java -cp "$root/build/test-classes:$root/build/classes:$stock_jar" \
+  org.opensagetv.vibe.clientextension.StockServiceTest
 # Compile production only against stock Core above. Shadow the player boundary
 # solely in this isolated JVM to deterministically inject seek/free races and
 # the malformed-index exception; these are not physical disc acceptance gates.

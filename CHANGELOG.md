@@ -1,5 +1,166 @@
 # Changelog
 
+## 0.1.29 release preparation - 2026-11-26
+
+- User authorizes beta publication of the stock-compatible optional playback,
+  DVD, resume and browser-profile integration documented below.
+- Stock-JAR unit/contracts and approved deterministic packaging pass. Linux
+  qualification remains scoped; Windows and original Pro field rows are not
+  newly certified. Unselected clients keep their normal stock playback path.
+
+## Task reconciliation2026-11-20 (documentation only)
+
+- Close stale VCE-023 Linux profile qualification from final Web055 actual
+  browser evidence, retaining original specification and platform limits.
+  Windows/original Pro deferrals are separate. No runtime or release change.
+
+## Unreleased development0.1.29
+
+- Add explicit optional web-mpegps-v1 DVD capability profile. It reuses the
+  existing navigator/control lease but restricts that load to native MPEG-PS
+  for the browser bridge's existing HTML5 transcode. No second transform,
+  global settings mutation or false Android TS/SPU claim. Existing Android
+  revisions1..3 remain intact; downgrade/upshift from this browser profile is
+  rejected for the same lease. Local contract/HTTP tests pass; physical Web
+  integration/deployment remains pending. No stock Core changes/publication.
+
+## Unreleased development0.1.28
+
+- Preserve transformed title output across read-ahead menu CELL metadata;
+  switch back to Native only at destination NAV after the VM's drain gate.
+- Stock232/Non-Pro Copy/full_gpu resume and natural-end gates pass. Nine server
+  options and136 device preferences restored, test bookmark cleared, awake
+  lease inactive/original power, final0activity/stock hashes pass. See compact
+  VCE-022 result; Windows remains deferred.
+
+## Unreleased development0.1.27
+
+- Fix explicit owned-DVD Start/Resume while paused: play the navigator so it
+  can reach destination NAV and apply the pending seek. Save/Clear retain pause.
+
+## Unreleased development0.1.26
+
+- Add default-off Android owned-DVD controls on the existing LAN listener.
+  Start/save/resume/clear require the exact acknowledged session challenge;
+  recheck current player, lifetime and opt-in under serialized control.
+- Refuse unknown action names rather than treating them as main-feature start.
+  No Core changes, arbitrary APIs, runtime MCP dependency or clock override.
+
+## Unreleased development0.1.25
+
+- Add default-off read-only stock playback-state API without private renderer
+  negotiation or a client clock override; current Android need not consume it.
+- Add explicit current-owned DVD main-feature start and exact-disc/UI
+  bookmark save/resume/clear, preserving normal stock Watch/watched policy.
+- Add reviewed imported descriptive metadata Preview/Apply with bounded fields,
+  stale-value refusal and readback. Disclose sidecar updates; no automatic or
+  structural database/format repair. Actual generated fixture restored.
+- Validate new API names against the real stock binary as well as isolated
+  doubles. Stock232/Non-Pro Native/Copy/full_gpu intent and fallback gates pass;
+  exact136prefs/hooks/options/power restored, final0activity/protected hashes.
+- Document artwork no-change disposition: existing Java image path and
+  container-only original-loader ABI fix, not a duplicate global normalizer.
+  No Windows/publication/all-format parity claim.
+
+## Unreleased development0.1.22
+
+- Retain the presented DVD title's state/duration when the stock VM announces
+  a read-ahead CELL; switch custody only at its destination NAV. Explicit
+  seek/FLUSH still invalidates immediately. The authored preview exposed an
+  eight-second menu duration while its thirty-second title was still visible.
+- Add bounded CELL/NAV duration trace, valid authored default-button metadata
+  and regression coverage; preserve the separate FFmpeg provider and stock Core.
+
+## Unreleased development0.1.20
+
+- Add default-off Skip DVD Previews to Root Menu in the stock plugin Configure
+  screen. Snapshot startup policy once per owned load; longest-title startup
+  wins and later explicit Play/menu controls are not skipped. A missing or
+  disallowed root safely retains native playback. VCE-017 Linux gates complete
+  in development0.1.22; Windows remains deferred.
+- Preserve all existing caption, TS, diagnostic and provider boundaries. No
+  native/Core payload or private VideoFrame mutation is included.
+
+## Unreleased development0.1.19
+
+- Add default-off, per-UI regular-media STV caption-state relay using only the
+  public GetMediaPlayerClosedCaptionState API and existing LAN listener. Require an
+  exact client/load acknowledgement; unknown/old/off/disabled clients stay
+  stock. No caption player hook, FastLoad change or property mutation is needed.
+  The stock getter preserves desired STV selection even if its decoder setter
+  returns false; a successful getter alone is not caption-rendering proof.
+- Keep the TS zero-restart behavior in its existing independent opt-in. No
+  Core reflection, replacement Sage classes, media-socket interception or MCP
+  production dependency. VCE-016 Linux qualification is complete with Android20;
+  actual captions/fallbacks and restored settings are recorded in its result.
+
+## Unreleased development0.1.17
+
+- Complete VCE-014 extended Linux gates with actual PAL, sparse physical-SPU,
+  real three-branch angle pictures and measured directional scan evidence.
+  Negotiate revision3 Copy SPU identity; old/incomplete providers and clients
+  retain Native. Validate physical angle branches before owned public-VM seek,
+  and resume only a valid post-seek/FLUSH cursor after read-ahead Exit.
+
+- Preserve the first input NAV as a transformed representation's clock origin;
+  provider probing cannot replace it with a later read-ahead NAV.
+- Negotiate actual physical SPU IDs with revision2 clients; unknown/incomplete
+  inventories and sparse revision1 clients safely retain Native playback.
+- Copy remux additionally requires revision3 for sparse-SPU translation:
+  VOB output assigns dense IDs even when source physical IDs are sparse.
+  Revision1/2 sparse Copy stays Native; ordinary Native commands are unchanged.
+- Validate physical angle branches before switching; reject flattened-rip
+  alternatives and stale links escaping their authored block. Keep pre-cell
+  seek NAVs out of angle resynchronization.
+- Resume only an owned read-ahead-ended VM after a valid destination-cell
+  FLUSH. Closed/failed sessions and intentional player Stops remain terminal.
+- Add reproducible PAL, sparse-SPU and real three-branch non-seamless angle
+  fixtures with independent-reader checks. Physical qualification in progress;
+  Windows deferred. Stock Core and published0.1.0 remain unchanged.
+
+## Unreleased development0.1.10
+
+- Add default-off, bounded same-disc owned-DVD reload handoff. Guard UI,
+  lifecycle, requested position, expiry and newer Seek/Stop; stock free()->stop
+  teardown is not an intentional Stop. Linux actual title reload passes after
+  the measured6.29s teardown; the one-shot handoff is bounded to20s.
+- Local tests cover missing/disabled/older provider without linking Core SPI.
+  Windows remains deferred; no public release or blanket DVD parity claim.
+- Complete scoped stock232/Non-Pro Native/Copy/Transcode menu/subtitle/control,
+  reload/lifecycle/real-child/old-client fallback and preview/menu-end gates.
+  Android07 fixes the proven empty-PES source exception without Core changes.
+  All borrowed settings/power restored; Windows remains explicitly deferred.
+
+## Unreleased development0.1.7
+
+- Keep paused owned transforms out of the output-stall watchdog; renew its
+  deadline on resume. Avoid duplicate stock Stop/DEINIT during owned unload.
+- Encode actual signed stock DVD scan rates; use Native representation for
+  sparse scans and wait for reopened-title NAV before applying a fallback seek.
+- Retain early destination NAVs across stale clock reads, but clear previous
+  menu/title custody at a VM-marked discontinuity. Add default-off, bounded
+  CELL/anchor trace under the existing DVD trace option. Physical qualification
+  remains open; stock Core and public0.1.0 are unchanged.
+
+- Develop a default-off independent stock-API DVD navigator and bounded media
+  transport, IFO main-title query, destination-NAV clock and menu state custody.
+  First physical startup gate failed; revised handshake remains under test.
+  These are development paths, not a qualified or published full-parity claim.
+- Keep FFmpeg/MIM process ownership in its separate plugin. Copy/Transcode
+  integration and physical compatibility gates remain open.
+
+- Requalify unchanged public0.1.0 through the actual manager on official stock
+  Linux9.2.17/Ubuntu26: adapter opt-in and hook-off native authored-DVD menu/
+  title gates pass on Non-Pro25 with HDMI output. Restore global feature off
+  and blank hook. This does not deploy0.1.1 or certify private-Core DVD parity.
+
+- Add default-off, selected-UI TS restart hook. Only explicit zero uses stock
+  MiniPlayer's positive1ms seek path to refresh a stale parser refinement target.
+  Other targets, stock pusher, DVD, unselected clients and disabled fallback
+  remain unchanged. Preserve/refuse third-party player overrides.
+- Add stock-JAR config/policy/lifecycle/restoration and packaging coverage.
+  Physical commissioning is pending; no new public release or Core change.
+
 ## 0.1.0 - 2026-10-16 (beta)
 
 - Published immutable GitHub beta assets after exact-source green CI and

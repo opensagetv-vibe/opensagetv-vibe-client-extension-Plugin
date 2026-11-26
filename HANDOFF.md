@@ -1,5 +1,458 @@
 # Handoff
 
+## Current2026-11-26 - PUBLISH-001
+
+Explicit user authorization enables0.1.29 beta publication and sets the reviewed
+release date. Stock-JAR tests/metadata/approved package pass; archive91f410be.
+Linux scope remains as recorded below; Windows/original-Pro deferred rows are
+not promoted. Serial CI and immutable public assets precede SageTV catalog
+submission. No live server/Core/plugin setting change is part of publication.
+
+## Current task reconciliation2026-11-20
+
+VCE-023 Linux browser-profile scope is COMPLETE in TASKS ledger. Final
+Web055/BROWSER_ACCEPTANCE.md has17 actual rows per engine, including real
+feature/chapter/seek/SPU/bookmark/restoration/native fallback, superseding the
+six-row checkpoint below. Existing Android revisions retain their contracts;
+Web023 physical phone scope is separately complete. This is not Windows or
+all-disc certification. VCE-003 Windows/VCE-013 original Pro field confirmation
+stay deferred. No source/build/install/restart/publication change here.
+
+## VCE-023 optional Web MPEG-PS profile IN PROGRESS
+
+LATEST: manager29 loaded on unchanged stock232. Real host Chromium Web055
+six scoped profile/menu/production-button/saved-state/restoration/native-fallback
+rows and final exact UI retirement PASS. Web results/WEB-055/PROGRESS.md records
+versions, scope, corrected harness failures and limits; no all-title/chapter/
+seek/caption/physical-phone/Android new-profile certification. Task stays open.
+
+2026-11-15: candidate29 normal manager InstallPlugin returned RESTART through
+the existing bounded MCP companion installer. Guarded232 restart only after
+independent0recordings/UI contexts/native clients, followed by installed29/
+enabled readback and20 protected-stock hashes. Web055/Android negotiation
+physical gates still open; loaded metadata is not a browser DVD playback pass.
+Package SHA256a50566d414151a3cbea5691640a5d198ade0765231c91c1dd3fd387922b8ed92.
+No global playback option changes or publication. FFmpeg18 installation/restart
+is separately in progress for the shared quality dependency.
+
+Web055 shares the existing owned navigator/lease, not Android's transformed
+TS/SPU contract. Candidate capability revision4 requires exactweb-mpegps-v1
+profile, advertises it separately, latches native PS for this load and declines
+an unsafe transformed upshift. Android1..3 remain unchanged. This allows the
+Web bridge's existing HTML5 transcode, with no duplicate server transform or
+global setting edit. Owning TASKS covers qualification; no new deployment or
+physical pass yet. FFmpeg REMOTE-001 is a separate shared Direct quality task.
+
+## VCE-022 Linux COMPLETE (revision465)
+
+Actual manager Extension0.1.28 JAR19d6d14272c58b66901b857bc970bc1cab4a86e2e1ca8ebaba980b518bdf97a4
+and MCP0.1.19 JAR60bbedc48799cb931109e70384df4c6079c1ce9426608de5ad6531733b6514d7
+loaded on unchanged stock232. Android development23 APK358835679565b8832d306f4a0120c06432fbb75b2ec7e87b810ec616bec92b2b
+is installed on Non-Pro25. State snapshots, Native/Copy/full_gpu current-load
+DVD controls, paused resume, natural end, unavailable/stale/Disable fallback
+and menu/back gates pass. Fixed read-ahead CELL Native reopen and paused
+intent pump; compact artifacts/results/VCE-022/RESULT.md records actual scope.
+MCP Time Scroll also passes after correcting stock command labels; see its
+compact report. No Core edits, runtime MCP dependency or all-format claim.
+
+After the user toggled debugging, existing ADB authorization recovered. Exact
+Non-Pro25/AFTMM/API25 and own UI444556303031 verified; test bookmark cleared
+through public plugin controls and temporary global/owned options returnedfalse.
+Both hooks read back blank and all nine options original. The existing136
+preferences restored ONCE with private-values acknowledgment; app exited and
+force-stopped with no PID. Automated awake lease ended ONCE, subsequent status
+inactive and original7/2147483647 read back. NO borrowed state remains; never
+reuse these completed checkpoints or restore again. A future gate takes new
+checkpoints and explicitly opts into only its selected UI.
+
+Final02:43:44UTC0recordings/UIs/clients after normal closing-UI grace period;
+protected stock manifest/expected232/canonicalTS hash/no provider child PASS.
+No restart needed. Android/root orders465 remove completed restoration; focused
+preflight passes, no unrelated matrices rerun. Completed raw/checkpoints/helpers
+retire recoverably per root CLEANUP_REPORT; current APK/inspection/packages,
+canonical fixtures/settings/ADB identity remain. Windows deferred. No175/Pro
+mutation, commit or publication. Older active-state checkpoints are historical.
+
+## VCE-018/019/020/021 COMPLETE (2026-11-10; revision462)
+
+Supersedes active checkpoint below. Real manager Extension0.1.25 JAR6415f283 /
+MCP0.1.17 JARf4a4dd13, unchanged FFmpeg0.1.17/MIM0.4.12 and stock232 protected
+files. Non-Pro25/development20 unchanged APK. Read-only state clocks/seek/pause/
+Off-continuation, explicit DVD Native/Copy/full_gpu start/save/resume/clear and
+Stop/other-disc/Standard-disabled fallback, descriptive metadata no-write
+Preview/apply/stale refusal/exact restore pass. Binary API-name check prevents
+fake-only name validation. Artwork audit needs no new normalizer: original
+loader preload already fixes demonstrated ABI collision; Java TMDB path exists.
+
+All136prefs restored once; TS/DVD hooks blank/eight options originalfalse/native,
+test bookmark cleared, metadata original verified and canonicalmediaSHA unchanged.
+Own app exited. Awake lease inactive/end:no_checkpoint; actual7/2147483647
+matches pre-test, not a fabricated power restoration. Final14:15:33UTC0activity,
+full protected manifest/no ffmpeg.real child. Windows/175/Pro untouched/deferred.
+NineJava+one stock-binary API-name+eight packaging contracts and MCP7Java/
+11Python/validate/package pass. Compact artifacts/results/VCE-018..021/RESULT.md
+and docs/STOCK_MITIGATIONS.md retain scope/known limits. Current Android does NOT
+automatically consume the new state API; no hardware-clock/private-Core parity.
+Raw completed/corrected evidence/helpers retire recoverably to root deleteme.
+No commit or publication requested/performed. Later checkpoints are historical.
+
+## VCE-018/019/020/021 IN PROGRESS (2026-11-10; revision461)
+
+User requests further stock-only mitigations. Extension0.1.23 and MCP0.1.15
+build/focused contracts pass and are installed by the actual232 manager,
+requiring restart. MCP self-update stops the old bridge; authorized232 bootstrap
+records current activity UNKNOWN, not zero. Own Non-Pro25 app exited first;
+prior independent idle readback retained. Protected stock files pass before
+restart. New136preference checkpoint and automated awake lease ACTIVE: restore
+once at completion. No175/Pro/185 access or publication. New raw is under
+artifacts/active/VCE-018; root artifacts/temp/vce018_* are owned helpers.
+
+New state provider is read-only/default off, NOT an Android hardware clock or
+replacement for ordinary playback. DVD explicit current-owned actions and
+imported descriptive preview/Apply need actual runtime gates. Artwork audit
+finds historical PNG ABI collision already fixed container-only; no duplicate
+global normalizer should be introduced without a distinct observed failure.
+
+## VCE-015/016/017 Linux complete (2026-11-10; revision460)
+
+Supersedes every active checkpoint below. Actual manager Extension0.1.22
+75430d192e84e593607b8c4c10274fd883fac942d986cb0d8dc17631e88e6dd8 and MCP0.1.14
+65b636f5b03b3e4323a86d5c0b4761e302b6f78e49ebb5ebd57148c0cb62e355;
+FFmpeg0.1.17/MIM0.4.12 and official stock232 protected files unchanged.
+Android development20 on Non-Pro25 qualifies public CC state/CEA/TT/DVB,
+actual Direct Copy DVB and disabled-plugin fallback. Preview startup and
+read-ahead CELL/presented-NAV duration correction qualify on authored V3.
+Compact artifacts/results/VCE-015/016/017/RESULT.md and
+docs/LINUX_STOCK_CAPABILITIES.md record exact evidence and limits.
+
+All136 Android preferences restored ONCE; both TS/DVD hooks blank. Global/
+caption/TS/owned/skipmenus/skippreviews/trace/reload false, mode native, CC Off.
+Standard Extension/FFmpeg enabledtrue. Own app exited; automated awake lease
+inactive with original7/2147483647 power values. Final0recordings/UIs/clients,
+protected manifest/expectedIP/no provider child PASS. No remaining borrowed state.
+
+Windows185 remains deferred. VCE-013 bounded Linux gates pass, but original175/
+Pro stale-tail field confirmation stays deferred, not falsely reproduced.
+Independent MCP Time Scroll remains unqualified; minimum evidence retained in
+its owning active task. Do not rerun completed Linux/format/device matrices.
+No175/Pro/185 access, Core modification, commit or publication. Final20 APK and
+final plugin packages remain inputs; completed/corrected raw evidence retires
+recoverably to root deleteme with cleanup report. Historical checkpoints follow.
+
+## Current VCE-015/016 public-API checkpoint (2026-11-10)
+
+Supersedes the experimental hook description below. Actual manager-loaded
+Extension0.1.19 / MCP0.1.13 on stock232; protected hashes PASS. Caption state
+comes from public GetMediaPlayerClosedCaptionState, NOT MiniPlayer inheritance.
+No caption player hook or FastLoad change. TS hook restored blank; global
+enabledtrue, caption bridge currentlytrue, TS optionfalse, DVD hookblank and
+ownedfalse. Standard plugins enabledtrue. All136 Android settings checkpoint
+and automated awake lease remain ACTIVE; restore once at session end.
+
+Android16 fixes a real API25 ICU unescaped-brace initialization crash from15;
+ordinary Media3 Push A/V now advances and public state0/1/2 reaches the exact
+load. Optional linkage errors cannot terminate the media thread. Candidate17
+also restores DVB virtual-slot selection and separates UI mapping refresh from
+native wire authority. Physical DVB/Teletext and lifecycle gates are underway;
+do NOT treat server preference getter or a preview without captions as proof.
+Windows/175/Pro remain untouched. No commit/publication/full-parity claim.
+
+## VCE-015/016 ACTIVE — remaining Linux capabilities (2026-11-10)
+
+User requests all remaining Linux migration, not a status-only stop. Windows
+stays DEFERRED; stock232/Non-Pro25 only. VCE-013 public TS seeks600/860/880s->0
+pass stock, hook-enabled, feature-off and actual Standard-disabled runs; these
+do not reproduce the original175 stale-tail failure. Actual stock bytecode
+still proves the zero shortcut/API gap. Hook/global/TS-option restored blank/
+false/false, Standard enabledtrue. Original136Android checkpoint and automated
+awake lease REMAIN ACTIVE; selected temporary legacy Exo/hardware/Push.
+
+New0.1.18 caption bridge candidate uses existing8273 API (no browser/viewer),
+per-load nonce and actual stock MiniPlayer subclass. Protected renderer send
+property method cannot be invoked safely by a plugin, so stock STV CC state
+needs an optional state channel. New Android current-player/generation bridge
+and MCP0.1.12 fixed suffix controls are local only; not installed or physically
+passed. Bounded identity/state/HTTP/refusal/Disable unit tests pass; final APK/
+package and physical tests remain. No Core/native/FFmpeg modifications,185/175/
+Pro access, publication or commit. Do not close VCE-015/016 or restore checkpoint
+twice; finish runtime gates and exact restoration before closure.
+
+## VCE-014 COMPLETE — extended Linux acceptance (2026-11-10)
+
+Supersedes progress snapshots below. Actual manager0.1.17/906f6337 on stock232,
+FFmpeg0.1.17/MCP0.1.11/MIM0.4.12 and Non-Pro25/client13/b03d14ba pass PAL,
+sparse Copy/Transcode Spanish after seek/long pause, genuine three-angle
+picture selection, measured directional scan and affected lifecycle/fallback.
+Client13 retains BOTH stock media/GFX viewport routes: all-three DVD previews
+and ordinary actual Push pass. Exact136prefs/blank hook/six options/power
+restored; final0activity/protected hashes/no child. Compact
+artifacts/results/VCE-014/RESULT.md contains exact observations and explicit
+all-commercial/seamless/exact-rate/all-engine limits. Windows185 DEFERRED in
+parent VCE-003. Completed raw/staging retire recoverably per root cleanup
+report. Local candidates only, no175/Pro/185/Core/publication change.
+
+## VCE-014 extended Linux qualification IN PROGRESS
+
+Latest1.16 candidate manager-installed, guarded restart passed. Independently
+verified generated VIBE_AUTHORED_DVD_MULTIANGLE/21029 has actual red/green/blue
+VOB1/2/3 branches; libdvdnav selects each at3.003s. Five generator tests pass.
+RAYA/SOUL tested angle ranges are flattened (advertised alternatives absent),
+not valid multi-angle acceptance fixtures.1.15 declines missing physical
+branches and out-of-block links.1.16 corrects source read-ahead Exit: stock Seek
+sets valid cell/FLUSH but leaves running=-1; resume only our owned cursor after
+that verified transition, never intentional Stop/close/failure. Physical rerun
+pending. PAL15 Native/Copy/Transcode seek/20s pause/clock and Transcode visible
+ENG cue023 pass. Borrowed136prefs/lease ACTIVE, Windows DEFERRED.
+
+Current candidate1.14:1.13 real RAYA seek reproduced bounded-resync stop because
+destination VM cell was already an angle cell while actual NAV still preceded
+its sector range. Guard actual NAV sectors against authored angle-block bounds.
+Trace angle accepted/UOP and test real picture, not register alone. Transform
+first OPEN now anchors to immutable first input NAV, not late probe read-ahead.
+Focused tests/package pass; stock232 manager upgrade in progress. FFmpeg1.17 /
+MCP1.11/client08 loaded. Sparse1.17 first-start Spanish is visible; seek+long
+pause restores both DVB tracks/A/V/full_gpu, visible post-seek cue still pending.
+Borrowed settings/lease remain ACTIVE. Windows DEFERRED, no175/Pro access.
+
+Newest candidates1.13/FFmpeg1.17 are manager-installed, restarting under exact
+idle proof.1.12 angle number cycles, but actual interleaved scene is not clean;
+1.13 adds bounded selected VOB/cell resync and final-ILVU signed links. Do not
+call angle playback passed from its register alone.1.16 metadata deadline
+returns Native safely;1.17 uses direct child stderr instead of the Linux raw
+input mirror to avoid the metadata/output circular wait. Engines unchanged.
+Sparse first-start/NTSC, PAL Native/Copy/Transcode, process-stop regression have
+partial evidence, but current-candidate physical gates still pending. Compact
+artifacts/results/VCE-014/RESULT.md is the active record. Borrowed lease ACTIVE.
+
+Latest:1.11/FFmpeg1.15/MCP1.11/client08 loaded through manager; sparse Spanish
+wire66 visibly passes and PAL Copy/Transcode English are visible. Seek+pause
+restores A/V but the0.5s provider probe omits all later SPUs. Candidate1.12 /
+FFmpeg1.16 adds DVD-only5s/8MB input probe and conservative declaration/selected
+SPU coverage guard (Copy too). Native fallback for omitted streams; never guess.
+Real RAYA title1/3angles confirmed, stock angle213 is a no-op.1.12 selects only
+our owned VM's public angle register (verified stock JAR) and public seek,
+honors presented NAV angle-UOP/domain/count and validates1..9. No Core patch,
+private reflection or global reader. Focused regression suites pass; installing
+through manager now. Actual angle switching and scan cadence still pending.
+Original136prefs/awake lease remain ACTIVE; restore originals below at end.
+
+Supersedes the scoped completion below: PAL Native/English physically passes;
+sparse physical SPU 0x22 selected as wire66 plays video but no Spanish in
+Transcode. Input-to-DVB conversion loses physical IDs; local Extension1.11,
+FFmpeg1.14 and Android114 development08 candidates preserve a bounded map.
+Not yet installed/physically qualified. Real RAYA/SOUL angle discs found;
+PAL Copy/Transcode, multi-angle and measured scan cadence remain active.
+Windows185 remains DEFERRED; only stock232/Non-Pro25 are used.
+Fresh136-preference checkpoint and automated awake lease ACTIVE. Borrowed
+global/owned=true, modeTranscode, exact owned-player hook444556303031.
+Restore original global/owned=false, modeNative, skip_menus=false, blank hook,
+136preferences and captured power7/2147483647 at session end. Both Standard
+plugins originally enabledtrue. Loaded runtime remains1.10/1.13/MCP1.10,
+Android07. Preserve protected stock files and unique active failure evidence.
+
+## Linux qualification complete; Windows deferred (2026-11-10)
+
+Official stock232/Ubuntu26/Java11 retains protected Core/native/original FFmpeg
+hashes. Real manager loaded Extension0.1.10/54253028, FFmpeg0.1.13/f179a083,
+MCP0.1.10/78bf1b3d; engines0.4.12 unchanged. Non-Pro25 has local Android114
+development07/1b3d2e3b, settings-preserving and strictly inspected. No185/175/
+Pro access, commits or publication. Windows185 is DEFERRED by the user.
+
+Linux acceptance: Native/Copy/Transcode, actual destination-NAV clock, authored
+menus/audio/subtitles/chapters/basic scans, long pauses, genuine GFX reload,
+intentional Stop versus matched stock resume, real provider-child failure,
+Standard Disable/re-enable, missing/older-service rejection, actual public114
+no-ack Native fallback and preview layouts pass to the recorded scope. DVD
+actually uses Media3 for every selected preference; Exo-labelled DVD rows are
+safe preference fallback, NOT independent Exo playback. ALADDIN startup/540s
+seek/pause/resume also passes. The compact VCE-003 result has hashes/numbers.
+
+07 fixes the proven title-to-menu source exception: reject incomplete/empty
+PES before header reads can leave H262Reader past packet limit. Six new
+boundary/ten clock-scan JVM,85 source contracts/build/strict APK checks pass.
+Natural end observes the exact empty-PES guard and visible healthy root.
+Earlier rapid-startup IO_UNSPECIFIED has no equivalent stack; retain minimum
+unique evidence without inventing its cause. Current repeated menu gates pass.
+
+Original blank hook, six options,136 Android preferences and captured power
+values restored; both Standard plugins enabledtrue. Own app exited, final
+authoritative0recordings/UIs/clients, protected hashes PASS and no DVD child.
+No borrowed settings/lease remains. Windows is the remaining platform gate;
+PAL/multi-angle/sparse-SPU/exact-cadence are unqualified limits, not claims of
+full private-Core parity. Optional owned mode stays default off. For future
+testing take NEW checkpoints and opt into only the selected UI.
+
+## Historical scoped closeout (2026-11-10)
+
+Windows185 stays PENDING by user; do not start/update/probe it to continue.
+Stock232 protected hashes PASS, Extension1.7/6fcb50c4, MCP1.8/aa15bc5d,
+FFmpeg1.11/5a330dc0 loaded through actual manager. Fresh idle guard passed
+before the FFmpeg restart; an initial closing-UI guard correctly aborted.
+Android05/9c352586 installed Non-Pro25. Client fixes preserve same-stream SPU
+cues/palette and map transformed DVD ordinals to bitmap tracks, not CEA.
+Provider physical-ID ordering fixes unit/probe-proven reversed subtitle
+identity; Copy English/Spanish and full_gpu Transcode English are now visible
+in HDMI. Native menus/Spanish audio/chapter/forward and reverse basic scan,
+long Copy/Transcode pauses, both Media3/Exo return-to-Native and ordinary Push
+affected checks have scoped evidence. This is NOT complete DVD/Core parity.
+
+Remaining: old/missing-provider and actual child-failure/Standard-Disable,
+reload/intentional-stop distinctions, wider authored/sparse-SPU/format behavior,
+and Windows qualification. A rapid startup-to-menu IO failure remains unproven;
+sequential clean start/menu gates pass, do not erase its minimum evidence or
+claim all transition timings qualified. Preview layout is not qualified by
+full-screen captures. No production175/Pro or protected Core mutation.
+
+All borrowed136 Android prefs restored; original blank DVD hook, globalfalse,
+ownedfalse, modeNative, skip_menusfalse and tracefalse read back. Automated
+power lease restored to its captured originals (7/2147483647, not forced sleep
+defaults). Own app exited; final authoritative0recordings/UIs/clients. Next
+session must take a NEW checkpoint/lease and explicitly opt into owned DVD;
+do not reuse the completed lease. Default-off development stays unpublished.
+MCP-DVD-OWNED-001 closes only its bounded commissioning scope. VCE-003/STOCK-004/
+STOCK-DVD-001/STOCKDVD-001 remain open with exact pending gates, not blanket pass.
+
+## Latest direction and corrected fallback
+
+User leaves Windows `.185` PENDING; do not probe, start or update it for the
+current Linux continuation. Extension1.7/FFmpeg1.10/MCP1.8 remain on stock232.
+Android114 development03/36F763E9 corrects the demonstrated decoder/surface
+release ordering failure: Transcode -> feature Off -> Native now passes A/V
+counters plus HDMI burned source58.959s. Native scan4x visibly advances source
+62.029 ->75.042s over2s of capture (fast playback, not exact-rate calibration).
+Ordinary Media3 Push seek/pause/resume also passes advancing A/V. Legacy Exo,
+remaining menus/controls/lifecycle and restoration remain open; no full
+migration, release or Windows pass. Original136 preferences/power lease and
+hook/options/trace restoration below are still required.
+
+## Superseding checkpoint (2026-11-10 01:19UTC)
+
+Installed Extension1.6, FFmpeg1.10/5c9b354b, MCP1.8 on stock232; protected hashes
+PASS.1.7 packaged/staging for new regression: a discontinuous zero-based title
+could retain/select a zero-based menu NAV. First failing unit reproduced it;
+clear NAV custody only on VM-marked CELL discontinuity, focused tests pass.
+Adds trace.dvd-controlled CELL/anchor diagnostics for physical proof. Trace is
+borrowedtrue (originalfalse), must restore.1.6 adds fixed-point signed stock DVD
+scan flags and defers seek until the reopened title's first NAV; physical
+scan/fallback/repeated-start acceptance still open, not qualified by build.
+1.5 long Copy pause holds26727ms past old15s timeout, resumes advancing A/V;
+later repeated Play/Menu/Stop no duplicate MiniDVDPlayer.free errors observed.
+Authored Audio submenu yellow highlight is visible in independent HDMI;
+Spanish selection yields real440Hz output (power202106 vs English0.63).
+End-of-loop screenshots can legitimately show authored SPU-off, so those alone
+do not prove highlight corruption. Native/Copy seek reports remain scoped.
+Windows185 SSH unreachable; keep Windows gate pending. Current borrowed mode
+transcode (originalnative), trace true (originalfalse), other checkpoint/power/
+hook restoration obligations remain. Public releases unchanged; no commit.
+
+## Current checkpoint (2026-11-10 00:57UTC)
+
+Real-manager Extension0.1.5 loaded on stock232, JAR8c7a5f8b; guarded restart
+0recordings/0UIs/0clients, stock protected hashes PASS. MCP1.8/FFmpeg1.9 unchanged.
+Android development02 installed settings-preserving, SHA9f15f01d; focused JVM
+tests/build and strict package/signer inspection pass. Copy/Transcode seek30
+reach independent HDMI source34.835/37.271s with source-anchored clocks advancing.
+Native root/Languages authored yellow highlight visible; deeper menus still
+inconsistent. Long pause triggered provider timeout and false Native fallback
+in1.4;1.5 parks before pumping and renews deadline on Play. Duplicate Core
+Stop/DEINIT after owned close fixed through protected closeDriver0, keeping
+superclass reader/mount cleanup. Physical long-pause/repeated unload gates now.
+FFmpeg exit7-vs-EOF unit failure reproduced then fixed; local suite passes,
+installed1.9 remains older bytes. No publication/commit/full parity claim.
+Compact scope: artifacts/results/VCE-003/stock-migration-qualification.md.
+Catalog CASc51cebe3f2da6abfcc63252499ae28afeee075dd2a37abd061c91aa641c84ac1.
+Current borrowed modecopy; originalnative. Other restoration obligations below
+remain active.175/185/Pro untouched.
+
+## Active VCE-003 checkpoint (2026-11-10 00:40UTC)
+
+Installed232 Extension0.1.3 JAR44113b60, MCP0.1.8 aa15bc5d,
+FFmpeg0.1.9 d6e6b053; original stock protected hashes PASS. All through actual
+manager. Native root highlight/title/45s seek physically reach output. Copy
+starts and paused holds44737ms, but seek30000 returns7340ms: failed source-clock
+gate. Transcode starts, actual service full_gpu/bytesIn25958400/out29484792;
+decoder A/V advances. Still needs independent HDMI/controls/fallback proof.
+Android114 development01 B198E0E2 installed Non-Pro25; original136prefs kept.
+Development02 builds now with explicit owned clock=nav_v1: actual NAV/STC plus
+current rendered decoder epoch, not a remux PES/file/wall-clock guess. Media3/
+legacy Exo and GSY delegate support; unknown backends do not acknowledge MIM.
+Extension0.1.4 packaged/staged, NOT installed: non-destructive bounded NAV
+selection fixes unit-reproduced loss of early destination NAVs when old clock
+is sampled after FLUSH. Clears stale clock cache on destination STC. Further
+submenu physical proof and all remaining VCE-003 acceptance still open.
+
+Current catalog CAS9779b98d3ea0eb49a2442534fb0f0fd9ab550f2bc141cd080b73abd596b25f12.
+Only extension needs update now; MCP/FFmpeg already loaded. UI444556303031,
+DVD20819, current borrowed dvd.owned_mode=transcode (originalnative), ownedtrue/
+enabledtrue (originalfalse), owned player hook (originalblank). Android Media3/
+hardware/Push(dynamic), awake/settings checkpoint still borrowed. Restore all
+before ending.175/185/Pro untouched. No commit/publication. Raw active/VCE-003
+retained for unresolved menu/clock failures; compact results still to write.
+
+## VCE-003 owned-navigation migration resumed (2026-11-09)
+
+User requests completion of the remaining migration, not only container setup.
+Stock232 Core/native/FFmpeg remain protected (Sage.jar d76ded98). New development
+player composes the public stock DVD VM/reader with an independently implemented
+stock media-wire pump, bounded destination-NAV presentation queue and IFO catalog.
+No sage classes, private reflection, copied Core push loop or normal MCP dependency.
+Feature defaults off; only UI444556303031/Non-Pro25 explicitly opted in for testing.
+0.1.1 first installed prototype failed before video/first CELL with IOException;
+this is a FAILED gate, not qualified playback. Actual stock-VM authored-fixture
+test and isolated IFO/wire/timeline/config tests pass.0.1.2 development candidate
+gates clock reads until OPENURL/PLAY finish, adds error detail/cache/state refresh;
+manager install returned RESTART, guarded stock232 restart/load is in progress.
+Public0.1.0 is unchanged; no commit/release. FFmpeg stock-only service refactor
+passes its tests locally but is not installed/wired to this player's native loop.
+Copy/Transcode/menu-policy/reload/disabled/Windows acceptance remain OPEN.
+
+Borrowed state requiring restoration: Android136-preference checkpoint active;
+selected Media3/hardware/Push(dynamic), awake lease active; extension enabledtrue,
+dvd.owned_navigationtrue (both originallyfalse); selected UI DVD hook owned class
+(original blank). Restore hook while UI connected, then both bools, preferences,
+exit and release awake lease.175/185/Pro not changed. Raw active/VCE-003 retains
+startup failure/manager/restart results until corrected; no full parity claim.
+
+## Stock-only deployment boundary (2026-11-09)
+
+Container STOCK-005 installs the public0.1.0 adapter/upload-only plugin through
+the actual manager on newly stock232; Core SHA d76ded98 stays unchanged.
+This does not deploy the deferred0.1.1 TS hook or complete VCE-003. Historical
+Core-fix recommendations are comparison notes only, not an authorized fallback.
+Normal client playback must remain independent of MCP and an absent/disabled
+companion; only explicitly opted-in qualified features may depend on it.
+Both adapter opt-in and blank-hook native authored-DVD menu/title gates now
+pass on stock232/Non-Pro25. Native actual remote-key phases take2.64-3.91s;
+HDMI independently shows main feature26.260s/chapter2. Global false/blank hook
+restored; public0.1.0 unchanged. See parent container STOCK-005 compact result.
+
+## Superseding client-only direction (2026-11-08)
+
+VCE-013 is deferred, not an Android RESTART-001 prerequisite. The user requires
+client fixes first and server/extension fixes only as a proven last resort.
+Retain the local0.1.1 candidate and tests, but do not install/restart/publish
+it for the current task. Earlier175 restart question is superseded. Android
+now investigates the existing stock media reconnect/reload path. Local tests
+below remain historical evidence, not a physical runtime qualification.
+
+## VCE-013 development (2026-11-08)
+
+Parent Android RESTART-001: user109/Pro175/SageMC Restart request0 is followed
+by FastMpeg2Reader stale target3598 and reseekEOF. Actual stock JAR javap
+confirms seek(0) shortcuts without resetting pending target/reseek count;
+positive seek updates them. Client110 independently repairs STOP-hidden output.
+Prepared0.1.1 default-off TS wrapper at supported per-UI /ts player hook:
+only explicit0 -> public stock super.seek(1ms); all other inputs unchanged.
+Global feature/Standard-plugin lifecycle guard, third-party refusal, selected
+UI/property checkpoint/restore, DVD/other UIs untouched. No Core/private fields,
+new transport or normal MCP dependency. Publication approvalfalse; public0.1.0
+unchanged. Stock-JAR config/TS/recovery/store tests and10 host tests pass.
+Bounded Core MCP companion.ts_hook/video.restart_fix controls prepared in its
+project for commissioning only. No new server install/restart/physical pass.
+175 restart question pending; do not assume authorization.232 restart standing
+authority still requires current recording/client idle proof. Next qualified
+package/manifest then exact-source before/after/Off/Disable/restoration gate.
+
 ## VCE-006 PUBLISHED / catalog submitted (2026-10-16)
 
 GitHub beta v0.1.0 is public at a54267fa806f216b50931a433fe099b681c1475d,

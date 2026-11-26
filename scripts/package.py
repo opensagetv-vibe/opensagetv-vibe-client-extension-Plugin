@@ -18,7 +18,21 @@ from validate_manifest import ROOT, validate
 OUTPUT = ROOT / "output" / "packages"
 JAR = ROOT / "dist" / "dev" / "VibeClientExtensionPlugin.jar"
 REQUIRED_CLASSES = {"org/opensagetv/vibe/clientextension/ClientExtensionPlugin.class",
-                    "org/opensagetv/vibe/clientextension/ClientExtensionDvdPlayer.class"}
+                    "org/opensagetv/vibe/clientextension/PlaybackStateSnapshot.class",
+                    "org/opensagetv/vibe/clientextension/ImportedMetadataRepair.class",
+                    "org/opensagetv/vibe/clientextension/DvdPlaybackIntent.class",
+                    "org/opensagetv/vibe/clientextension/PlaybackCaptionState.class",
+                    "org/opensagetv/vibe/clientextension/ClientExtensionDvdPlayer.class",
+                    "org/opensagetv/vibe/clientextension/ClientExtensionTsPlayer.class",
+                    "org/opensagetv/vibe/clientextension/PluginOwnedDvdPlayer.class",
+                    "org/opensagetv/vibe/clientextension/StockDvdNavigator.class",
+                    "org/opensagetv/vibe/clientextension/DvdPresentationTimeline.class",
+                    "org/opensagetv/vibe/clientextension/DvdMiniClientDriver.class",
+                    "org/opensagetv/vibe/clientextension/DvdTitleCatalog.class",
+                    "org/opensagetv/vibe/clientextension/DvdStartupPolicy.class",
+                    "org/opensagetv/vibe/clientextension/DvdTransformPort.class",
+                    "org/opensagetv/vibe/clientextension/DvdCapabilityReceiver.class",
+                    "org/opensagetv/vibe/clientextension/DvdClientCapabilities.class"}
 
 
 def inspect_jar(data: bytes) -> None:
